@@ -1,7 +1,6 @@
 {
   "name": "playwright_vscodeext",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
@@ -9,5 +8,20 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.30.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright-core": "^1.30.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olehpyvovarov/Playwright_PageObject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olehpyvovarov/Playwright_PageObject/issues"
+  },
+  "homepage": "https://github.com/olehpyvovarov/Playwright_PageObject#readme",
+  "description": ""
 }
